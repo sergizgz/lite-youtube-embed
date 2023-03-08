@@ -29,6 +29,7 @@ class LiteYTEmbed extends HTMLElement {
          */
         if (!this.style.backgroundImage) {
           this.style.backgroundImage = `url("https://i.ytimg.com/vi/${this.videoId}/hqdefault.jpg")`;
+        console.log("hola");
         }
 
         // Set up play button, and its visually hidden label
